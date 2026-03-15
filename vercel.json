@@ -1,0 +1,10 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
+**Your repo structure should look like this:**
+```
+my-portfolio/
+├── index.html
+└── vercel.json

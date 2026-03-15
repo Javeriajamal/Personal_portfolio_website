@@ -1,10 +1,6 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" }
+  ]
 }
-```
-
-**Your repo structure should look like this:**
-```
-my-portfolio/
-├── index.html
-└── vercel.json
